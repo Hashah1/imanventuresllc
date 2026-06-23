@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iman Ventures LLC</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0f1e; color: #f0f0f0; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 48px; border-bottom: 1px solid #1e2a40; }
+    nav .logo { font-size: 1.2rem; font-weight: 700; color: #fff; letter-spacing: 0.5px; }
+    nav a { color: #38bdf8; text-decoration: none; font-size: 0.95rem; }
+    .hero { text-align: center; padding: 100px 24px 80px; }
+    .hero h1 { font-size: 3rem; font-weight: 800; line-height: 1.15; max-width: 700px; margin: 0 auto 20px; }
+    .hero h1 span { color: #38bdf8; }
+    .hero p { font-size: 1.15rem; color: #94a3b8; max-width: 560px; margin: 0 auto 40px; line-height: 1.7; }
+    .btn { display: inline-block; background: #38bdf8; color: #0a0f1e; padding: 14px 32px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 1rem; transition: background 0.2s; }
+    .btn:hover { background: #7dd3fc; }
+    .section { padding: 80px 48px; max-width: 1100px; margin: 0 auto; }
+    .section h2 { font-size: 2rem; font-weight: 700; margin-bottom: 48px; text-align: center; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+    .card { background: #111827; border: 1px solid #1e2a40; border-radius: 12px; padding: 32px 24px; }
+    .card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #38bdf8; }
+    .card p { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; }
+    .product { background: #111827; border: 1px solid #1e2a40; border-radius: 16px; padding: 48px; display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 600px; margin: 0 auto; }
+    .product h3 { font-size: 1.6rem; font-weight: 800; margin-bottom: 16px; }
+    .product p { color: #94a3b8; line-height: 1.7; margin-bottom: 28px; }
+    footer { border-top: 1px solid #1e2a40; text-align: center; padding: 40px 24px; color: #475569; font-size: 0.9rem; }
+    footer a { color: #38bdf8; text-decoration: none; }
+    @media (max-width: 640px) { .hero h1 { font-size: 2rem; } nav { padding: 16px 24px; } .section { padding: 60px 24px; } }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">Iman Ventures LLC</span>
+    <a href="mailto:admin@imanventuresllc.com">Contact Us</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Purpose-built software<br />for <span>everyday life</span></h1>
+    <p>Iman Ventures LLC builds focused digital products across Islamic utility, AI tools, and modern mobile experiences.</p>
+    <a href="mailto:admin@imanventuresllc.com" class="btn">Get in Touch</a>
+  </section>
+
+  <section class="section">
+    <h2>What We Build</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Islamic Utility Apps</h3>
+        <p>Thoughtfully designed tools that support daily worship, routines, and spiritual growth for Muslim users worldwide.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Powered Tools</h3>
+        <p>Practical AI integrations that bring intelligent features to everyday workflows and mobile experiences.</p>
+      </div>
+      <div class="card">
+        <h3>Mobile-First Products</h3>
+        <p>Cross-platform React Native apps built for performance, reliability, and beautiful user experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Featured Product</h2>
+    <div class="product">
+      <h3>MyImaan</h3>
+      <p>A daily worship intelligence app designed to help Muslims build consistent habits around prayer, Quran, and reflection — powered by smart tracking and personalized insights.</p>
+      <a href="mailto:admin@imanventuresllc.com" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Iman Ventures LLC &nbsp;&middot;&nbsp; <a href="mailto:admin@imanventuresllc.com">admin@imanventuresllc.com</a> &nbsp;&middot;&nbsp; Lombard, IL</p>
+  </footer>
+</body>
+</html>
